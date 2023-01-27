@@ -25,9 +25,9 @@ on:
 
 
 #Set the environment variables for tracking metrics
-#env:
-  #SFPOWERSCRIPTS_NEWRELIC: 'true'
-  #SFPOWERSCRIPTS_NEWRELIC_API_KEY: '${{ secrets.NEWRELIC_INSIGHT_INSERT_KEYS }}'
+env:
+  SFPOWERSCRIPTS_NEWRELIC: 'true'
+  SFPOWERSCRIPTS_NEWRELIC_API_KEY: '${{ secrets.NEWRELIC_INSIGHT_INSERT_KEYS }}'
   #SFPOWERSCRIPTS_DATADOG: 'true'
   #SFPOWERSCRIPTS_DATADOG_HOST: '${{ secrets.DATADOG_HOST }}'
   #SFPOWERSCRIPTS_DATADOG_API_KEY: '${{ secrets.DATADOG_API_KEY }}'
@@ -120,6 +120,7 @@ jobs:
       # Publish artifacts
       - uses: actions/upload-artifact@v2
         with:
+          node-version: '16.x'
           name: build-artifacts
           path: artifacts
 
@@ -127,6 +128,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
          registry-url: 'https://npm.pkg.github.com'
+         scope: '@${{ github.repository_owner }}'
 
       - name: Publish
         run: |
