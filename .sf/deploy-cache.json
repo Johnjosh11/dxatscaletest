@@ -1,0 +1,13 @@
+{
+  "0Af8d00000N5TdNCAV": {
+    "source-dir": [
+      "src"
+    ],
+    "target-org": "john@hyland.sandbox",
+    "test-level": "RunLocalTests",
+    "wait": 33,
+    "dry-run": true,
+    "api": "SOAP",
+    "timestamp": "2023-02-01T01:40:41.947Z"
+  }
+}
