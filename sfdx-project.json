@@ -25,7 +25,7 @@
         },
         {
             "path": "./src/core-crm",
-            "package": "core",
+            "package": "core-nc",
             "versionName": "Version 1.0.0",
             "versionNumber": "1.0.0.0"
         },
