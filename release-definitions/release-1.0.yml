@@ -1,8 +1,8 @@
 release: "Release-1.0"
-skipIfAlreadyInstalled: true
+skipIfAlreadyInstalled: false
 artifacts:
   #src-env-specific-alias-pre: LATEST_TAG
-  core: LATEST_TAG
+  core-nc: LATEST_TAG
   #src-ui: LATEST_TAG
   #src-access-management: LATEST_TAG
   #src-env-specific-alias-post: LATEST_TAG
