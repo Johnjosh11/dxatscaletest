@@ -1,0 +1,129 @@
+{
+    "orgs": [
+        {
+            "name": "sit",
+            "releases": [
+                {
+                    "names": [
+                        "Release-1.0"
+                    ],
+                    "buildNumber": 1,
+                    "hashId": "428e123821b2cfc149645d6fae7eac2c940afe28"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Release-1.0"
+                ],
+                "buildNumber": 1,
+                "hashId": "428e123821b2cfc149645d6fae7eac2c940afe28"
+            },
+            "retryCount": 0
+        }
+    ],
+    "releases": [
+        {
+            "names": [
+                "Release-1.0"
+            ],
+            "buildNumber": 1,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "core-nc",
+                    "to": "758f306f",
+                    "version": "1.0.0.4225895163",
+                    "latestCommitId": "758f306f",
+                    "commits": [
+                        {
+                            "commitId": "758f306f",
+                            "date": "2023-02-20T17:41:43+00:00",
+                            "author": "johndevops1",
+                            "message": "test",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "5d26e298",
+                            "date": "2023-02-18T04:39:54+00:00",
+                            "author": "johndevops1",
+                            "message": "test",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "76596be5",
+                            "date": "2023-02-10T12:21:08+00:00",
+                            "author": "John Boothapati",
+                            "message": "Update AccountNumber__c.field-meta.xml",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "34b29dc0",
+                            "date": "2023-02-10T11:56:36+00:00",
+                            "author": "John Boothapati",
+                            "message": "Update AccountNumber__c.field-meta.xml",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "19362e1e",
+                            "date": "2023-02-10T11:26:11+00:00",
+                            "author": "John Boothapati",
+                            "message": "Update AccountNumber__c.field-meta.xml",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "7c8581e7",
+                            "date": "2023-02-09T15:08:17+00:00",
+                            "author": "johndevops1",
+                            "message": "test",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "a04bc65e",
+                            "date": "2023-02-01T01:49:31+00:00",
+                            "author": "johndevops1",
+                            "message": "first commit",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "c08f621c",
+                            "date": "2023-01-27T01:25:30+00:00",
+                            "author": "johndevops1",
+                            "message": "first commit",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "4f602bcb",
+                            "date": "2023-01-27T01:17:26+00:00",
+                            "author": "johndevops1",
+                            "message": "first commit",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "14ebc715",
+                            "date": "2023-01-27T01:13:53+00:00",
+                            "author": "johndevops1",
+                            "message": "first commit",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "998ae013",
+                            "date": "2023-01-27T00:44:44+00:00",
+                            "author": "johndevops1",
+                            "message": "first commit",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "41442273",
+                            "date": "2023-01-12T16:11:29+00:00",
+                            "author": "shanmukprassu",
+                            "message": "Initial commit",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "428e123821b2cfc149645d6fae7eac2c940afe28",
+            "date": "Wed Mar 01 2023 14:36:39 GMT+0000 (Coordinated Universal Time)"
+        }
+    ]
+}
