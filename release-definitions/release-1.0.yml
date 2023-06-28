@@ -7,4 +7,6 @@ artifacts:
   #src-access-management: LATEST_TAG
   #src-env-specific-alias-post: LATEST_TAG
 changelog:
-  workItemFilter: "issues/[0-9]+"
+  #repoUrl: "https://github.com/Sage/salesforce-dx-shadow.git"
+  workItemFilter: "(EAD|SFDXCICD)(-)[0-9]+"
+  workItemUrl: "https://jira.sage.com/browse/"
